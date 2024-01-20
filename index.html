@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
     <title>Login</title>
 </head>
 <body>
     <main>
-        <section id="Login">
+        <section id="login">
             <div id="imagem">
-                Foto
             </div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente, Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
                 <form action="cadastro.php" method="post" autocomplete="on">
+                    <label for="iusuario">icon</label>
+                    <input type="text" name="usuario" id="iusuario" placeholder="Email ou Nome de úsuario" required> <br>
                     
+                    <label for="isenha">Icon</label>
+                    <input type="number" name="senha" id="isenha" min="8" max="30" placeholder="Senha" required>
                 </form>
             </div>
         </section>
